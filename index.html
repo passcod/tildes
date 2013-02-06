@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brackets</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
+    <style>
+      html {
+        background: #FEFEFE;
+        background-image: url(/images/light_wool_@2X.png);
+        font: "Open Sans", sans-serif;
+      }
+
+      section.bracket {
+        background: rgba(255, 255, 255, 0.5);
+        border: 3px double #EEEEEE;
+        display: inline-block;
+        height: 180px;
+        margin: 10px 5px;
+        position: relative;
+        width: 290px;
+      }
+
+      .char {
+        font-size: 10em;
+        margin: 0;
+        padding: 0.5rem 1rem;
+      }
+
+      .info {
+        padding: 2rem;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="bracket">
+      <p class="char">[</p>
+      <aside class="info">
+        <p class="name">Left square</p>
+        <p class="unicode">U+005B</p>
+        <p class="entity">&amp;#91;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">]</p>
+      <aside class="info">
+        <p class="name">Right square</p>
+        <p class="unicode">U+005D</p>
+        <p class="entity">&amp;#93;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〈</p>
+      <aside class="info">
+        <p class="name">Left angle</p>
+        <p class="unicode">U+2329</p>
+        <p class="entity">&amp;#9001;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〉</p>
+      <aside class="info">
+        <p class="name">Right angle</p>
+        <p class="unicode">U+232A</p>
+        <p class="entity">&amp;#9002;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⟨</p>
+      <aside class="info">
+        <p class="name">Mathematical left angle</p>
+        <p class="unicode">U+27E8</p>
+        <p class="entity">&amp;#10216;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⟩</p>
+      <aside class="info">
+        <p class="name">Mathematical right angle</p>
+        <p class="unicode">U+27E9</p>
+        <p class="entity">&amp;#10217;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">{</p>
+      <aside class="info">
+        <p class="name">Left curly</p>
+        <p class="unicode">U+007B</p>
+        <p class="entity">&amp;#123;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">}</p>
+      <aside class="info">
+        <p class="name">Right curly</p>
+        <p class="unicode">U+007D</p>
+        <p class="entity">&amp;#125;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⌊</p>
+      <aside class="info">
+        <p class="name">Left floor</p>
+        <p class="unicode">U+230A</p>
+        <p class="entity">&amp;#8970;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⌋</p>
+      <aside class="info">
+        <p class="name">Right floor</p>
+        <p class="unicode">U+230B</p>
+        <p class="entity">&amp;#8971;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⌈</p>
+      <aside class="info">
+        <p class="name">Left ceiling</p>
+        <p class="unicode">U+2308</p>
+        <p class="entity">&amp;#8968;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⌉</p>
+      <aside class="info">
+        <p class="name">Right ceiling</p>
+        <p class="unicode">U+2309</p>
+        <p class="entity">&amp;#8969;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸢</p>
+      <aside class="info">
+        <p class="name">Top left half</p>
+        <p class="unicode">U+2E22</p>
+        <p class="entity">&amp;#11810;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸣</p>
+      <aside class="info">
+        <p class="name">Top right half</p>
+        <p class="unicode">U+2E23</p>
+        <p class="entity">&amp;#11811;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸤</p>
+      <aside class="info">
+        <p class="name">Bottom left half</p>
+        <p class="unicode">U+2E24</p>
+        <p class="entity">&amp;#11812;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸥</p>
+      <aside class="info">
+        <p class="name">Bottom right half</p>
+        <p class="unicode">U+2E25</p>
+        <p class="entity">&amp;#11813;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">(</p>
+      <aside class="info">
+        <p class="name">Left parenthesis</p>
+        <p class="unicode">U+0028</p>
+        <p class="entity">&amp;#lparen;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">)</p>
+      <aside class="info">
+        <p class="name">Right parenthesis</p>
+        <p class="unicode">U+0029</p>
+        <p class="entity">&amp;#rparen;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸨</p>
+      <aside class="info">
+        <p class="name">Left double parenthesis</p>
+        <p class="unicode">U+2E28</p>
+        <p class="entity">&amp;#11816;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⸩</p>
+      <aside class="info">
+        <p class="name">Right double parenthesis</p>
+        <p class="unicode">U+2E29</p>
+        <p class="entity">&amp;#11817;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⎴</p>
+      <aside class="info">
+        <p class="name">Top square</p>
+        <p class="unicode">U+23B4</p>
+        <p class="entity">&amp;#9140;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⎵</p>
+      <aside class="info">
+        <p class="name">Bottom square</p>
+        <p class="unicode">U+23B5</p>
+        <p class="entity">&amp;#9141;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⎶</p>
+      <aside class="info">
+        <p class="name">Top over bottom square</p>
+        <p class="unicode">U+23B6</p>
+        <p class="entity">&amp;#9142;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⏠</p>
+      <aside class="info">
+        <p class="name">Top tortoise shell</p>
+        <p class="unicode">U+23E0</p>
+        <p class="entity">&amp;#9184;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⏡</p>
+      <aside class="info">
+        <p class="name">Bottom tortoise shell</p>
+        <p class="unicode">U+23E1</p>
+        <p class="entity">&amp;#9185;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⏞</p>
+      <aside class="info">
+        <p class="name">Top curly</p>
+        <p class="unicode">U+23DE</p>
+        <p class="entity">&amp;#9182;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">⏟</p>
+      <aside class="info">
+        <p class="name">Bottom curly</p>
+        <p class="unicode">U+23DF</p>
+        <p class="entity">&amp;#9183;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">「</p>
+      <aside class="info">
+        <p class="name">Left kagi</p>
+        <p class="unicode">U+300C</p>
+        <p class="entity">&amp;#12300;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">」</p>
+      <aside class="info">
+        <p class="name">Right kagi</p>
+        <p class="unicode">U+300D</p>
+        <p class="entity">&amp;#12301;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">『</p>
+      <aside class="info">
+        <p class="name">Left nijūkagi</p>
+        <p class="unicode">U+300E</p>
+        <p class="entity">&amp;#12302;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">』</p>
+      <aside class="info">
+        <p class="name">Right nijūkagi</p>
+        <p class="unicode">U+300F</p>
+        <p class="entity">&amp;#12303;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">（</p>
+      <aside class="info">
+        <p class="name">Fullwidth left paren</p>
+        <p class="unicode">U+FF08</p>
+        <p class="entity">&amp;#65288;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">）</p>
+      <aside class="info">
+        <p class="name">Fullwidth right paren</p>
+        <p class="unicode">U+FF09</p>
+        <p class="entity">&amp;#65289;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〔</p>
+      <aside class="info">
+        <p class="name">Left tortoise shell</p>
+        <p class="unicode">U+3014</p>
+        <p class="entity">&amp;#12308;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〕</p>
+      <aside class="info">
+        <p class="name">Right tortoise shell</p>
+        <p class="unicode">U+3015</p>
+        <p class="entity">&amp;#12309;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">［</p>
+      <aside class="info">
+        <p class="name">Fullwidth left square</p>
+        <p class="unicode">U+FF3B</p>
+        <p class="entity">&amp;#65339;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">］</p>
+      <aside class="info">
+        <p class="name">Fullwidth right square</p>
+        <p class="unicode">U+FF3D</p>
+        <p class="entity">&amp;#65341;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">｛</p>
+      <aside class="info">
+        <p class="name">Fullwidth left curly</p>
+        <p class="unicode">U+FF5B</p>
+        <p class="entity">&amp;#65371;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">｝</p>
+      <aside class="info">
+        <p class="name">Fullwidth right curly</p>
+        <p class="unicode">U+FF5D</p>
+        <p class="entity">&amp;#65373;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〈</p>
+      <aside class="info">
+        <p class="name">Fullwidth left angle</p>
+        <p class="unicode">U+3008</p>
+        <p class="entity">&amp;#12296;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">〉</p>
+      <aside class="info">
+        <p class="name">Fullwidth right angle</p>
+        <p class="unicode">U+3009</p>
+        <p class="entity">&amp;#12297;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">《</p>
+      <aside class="info">
+        <p class="name">Fullwidth double left angle</p>
+        <p class="unicode">U+300A</p>
+        <p class="entity">&amp;#12298;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">》</p>
+      <aside class="info">
+        <p class="name">Fullwidth double right angle</p>
+        <p class="unicode">U+300B</p>
+        <p class="entity">&amp;#12299;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">｢</p>
+      <aside class="info">
+        <p class="name">Halfwidth left kagi</p>
+        <p class="unicode">U+FF62</p>
+        <p class="entity">&amp;#65378;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">｣</p>
+      <aside class="info">
+        <p class="name">Halfwidth right kagi</p>
+        <p class="unicode">U+FF63</p>
+        <p class="entity">&amp;#65379;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">﹁</p>
+      <aside class="info">
+        <p class="name">Vertical left corner</p>
+        <p class="unicode">U+FE41</p>
+        <p class="entity">&amp;#65089;</p>
+      </aside>
+    </section>
+    <section class="bracket">
+      <p class="char">﹂</p>
+      <aside class="info">
+        <p class="name">Vertical right corner</p>
+        <p class="unicode">U+FE42</p>
+        <p class="entity">&amp;#65090;</p>
+      </aside>
+    </section>
+  </body>
+</html>
